@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>4. Cookies Sencillo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1>Gestión de Cookies</h1>
+
+    <!-- Formulario para usuarios nuevos -->
+    <div id="welcomeForm">
+        <h2>Bienvenido, dinos tu nombre:</h2>
+        <input type="text" id="nameInput">
+        <button onclick="saveName()">Guardar Nombre</button>
+    </div>
+
+    <!-- Saludo para usuarios que regresan -->
+    <div id="greeting" style="display: none;">
+        <h2 id="greetingMessage"></h2>
+        <button onclick="forgetMe()">Olvidarme</button>
+    </div>
+
+    <script src="4-cookies.js"></script>
+</body>
+
+</html>

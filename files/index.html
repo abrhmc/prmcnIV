@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice de Ejercicios de JavaScript</title>
+    <!-- Usamos el mismo archivo de estilos para una apariencia consistente -->
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        /* Estilos específicos para el índice */
+        body {
+            max-width: 800px;
+            margin: 40px auto;
+        }
+
+        .exercise-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .exercise-list li {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            padding: 20px;
+            transition: transform 0.2s;
+        }
+
+        .exercise-list li:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .exercise-list a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .exercise-list p {
+            margin: 10px 0 0;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Índice de Ejercicios de JavaScript</h1>
+        <p>Haz clic en el título de un ejercicio para abrirlo en una nueva pestaña.</p>
+    </header>
+
+    <main>
+        <ul class="exercise-list">
+            <li>
+                <!-- target="_blank" abre el enlace en una nueva pestaña -->
+                <a href="1-formulario.html" target="_blank">Ejercicio 1: Validación de Formulario</a>
+                <p>Un formulario simple que valida los campos del usuario usando `alert` para mostrar errores.</p>
+            </li>
+            <li>
+                <a href="2-sessionStorage.html" target="_blank">Ejercicio 2: sessionStorage</a>
+                <p>Demuestra cómo guardar datos que solo persisten durante la sesión de una pestaña del navegador.</p>
+            </li>
+            <li>
+                <a href="3-localStorage.html" target="_blank">Ejercicio 3: localStorage (Bloc de Notas)</a>
+                <p>Un bloc de notas que guarda el texto de forma permanente en el navegador, incluso si se cierra y se
+                    vuelve a abrir.</p>
+            </li>
+            <li>
+                <a href="4-cookies.html" target="_blank">Ejercicio 4: Cookies</a>
+                <p>Recuerda el nombre de un usuario entre visitas utilizando una cookie para ofrecer un saludo
+                    personalizado.</p>
+            </li>
+        </ul>
+    </main>
+
+</body>
+
+</html>
